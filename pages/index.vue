@@ -1,7 +1,7 @@
 <template>
-  <div>
- <h1>Teste</h1>
-  </div>
+   <v-row>
+     
+   </v-row>
 </template>
 
 <script lang="ts">
