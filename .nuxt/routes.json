@@ -2,8 +2,8 @@
   {
     "name": "index",
     "path": "/",
-    "component": "/home/brisanet/Documentos/apexcharts-test/pages/index.vue",
+    "component": "/home/brisanet/Documentos/project-vuetify-apexcharts/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_3215012a"
+    "_name": "_6d9424b0"
   }
 ]

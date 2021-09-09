@@ -12,8 +12,8 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_b0ec65c4 from 'nuxt_plugin_plugin_b0ec65c4' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_plugin_442088e0 from 'nuxt_plugin_plugin_442088e0' // Source: ./vuetify/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_2b667440 from 'nuxt_plugin_plugin_2b667440' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_65134a0e from 'nuxt_plugin_plugin_65134a0e' // Source: ./vuetify/plugin.js (mode: 'all')
 import nuxt_plugin_vueapexcharts_7410a43a from 'nuxt_plugin_vueapexcharts_7410a43a' // Source: ../plugins/vue-apexcharts.js (mode: 'client')
 
 // Component: <ClientOnly>
@@ -178,12 +178,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_b0ec65c4 === 'function') {
-    await nuxt_plugin_plugin_b0ec65c4(app.context, inject)
+  if (typeof nuxt_plugin_plugin_2b667440 === 'function') {
+    await nuxt_plugin_plugin_2b667440(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_442088e0 === 'function') {
-    await nuxt_plugin_plugin_442088e0(app.context, inject)
+  if (typeof nuxt_plugin_plugin_65134a0e === 'function') {
+    await nuxt_plugin_plugin_65134a0e(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_vueapexcharts_7410a43a === 'function') {
