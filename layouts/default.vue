@@ -11,7 +11,7 @@
           </v-list-item-avatar>
         </v-list-item>
       </v-list>
-      <!-- Itens do Menu de Navegação -->
+      <!-- Itens do Menu de Navegação (Os dados necessários para listagem estão sendo criados no 'data') -->
       <v-list class="items">
         <v-list-item v-for="item in items" :key="item.icon">
           <v-list-item-icon>
@@ -71,6 +71,7 @@
 export default {
   data() {
     return {
+      // Dados necessários para listagem do menu
       fixed: false,
       model: 1,
       items: [
@@ -88,6 +89,7 @@ export default {
 </script>
 
 <style>
+/* CSS dos componentes do menu e da barra de navegação superior */
 .avatar {
   margin-top: 10px;
   margin-left: 40px;

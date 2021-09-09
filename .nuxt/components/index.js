@@ -1,6 +1,5 @@
-export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
-export { default as Tutorial } from '../../components/Tutorial.vue'
-export { default as VuetifyLogo } from '../../components/VuetifyLogo.vue'
+export { default as ChartLineVcard } from '../../components/chart-line-vcard.vue'
+export { default as SalesInformationVcard } from '../../components/sales-information-vcard.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
