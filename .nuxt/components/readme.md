@@ -6,5 +6,5 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
-- `<ChartLineVcard>` | `<chart-line-vcard>` (components/chart-line-vcard.vue)
+- `<ChartLineRadialVcard>` | `<chart-line-radial-vcard>` (components/chart-line-radial-vcard.vue)
 - `<SalesInformationVcard>` | `<sales-information-vcard>` (components/sales-information-vcard.vue)

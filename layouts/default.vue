@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <!-- Menu De Navegação -->
-    <v-navigation-drawer class="menu" width="150" fixed app>
+    <v-navigation-drawer class="menu" width="150" fixed app >
       <v-list class="avatar">
         <v-list-item>
           <v-list-item-avatar>

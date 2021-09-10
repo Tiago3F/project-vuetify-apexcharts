@@ -1,4 +1,4 @@
-export { default as ChartLineVcard } from '../../components/chart-line-vcard.vue'
+export { default as ChartLineRadialVcard } from '../../components/chart-line-radial-vcard.vue'
 export { default as SalesInformationVcard } from '../../components/sales-information-vcard.vue'
 
 // nuxt/nuxt.js#8607
