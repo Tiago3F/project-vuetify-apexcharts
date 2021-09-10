@@ -4,5 +4,8 @@
   },
   "SalesInformationVcard": {
     "description": "Auto imported from components/sales-information-vcard.vue"
+  },
+  "UsersactivitySpeedometer": {
+    "description": "Auto imported from components/usersactivity-speedometer.vue"
   }
 }

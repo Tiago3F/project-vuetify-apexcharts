@@ -1,5 +1,6 @@
 export { default as ChartLineRadialVcard } from '../../components/chart-line-radial-vcard.vue'
 export { default as SalesInformationVcard } from '../../components/sales-information-vcard.vue'
+export { default as UsersactivitySpeedometer } from '../../components/usersactivity-speedometer.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

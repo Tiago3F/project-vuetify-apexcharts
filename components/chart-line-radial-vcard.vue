@@ -24,7 +24,7 @@
           <!-- Componente V-Card que contem a chamada da biblioteca de gráficos Radiais -->
           <v-row>
             <v-col md="6">
-              <v-card-title>E-mail Sent</v-card-title>
+              <v-card-title>E-mails Sent</v-card-title>
               <!-- Div de chamada do gráfico radial, onde são estabelecidos os seus parametros. -->
               <div class="radail-circle" id="chart-radial">
                 <apexchart
