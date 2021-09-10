@@ -1,4 +1,5 @@
 <template>
+<!-- Componente inicial que contém o botão para adcionar Widgets e as informações de boas vindas -->
   <v-col class="container">
     <v-card class="sales-information" elevation="2">
       <v-row>

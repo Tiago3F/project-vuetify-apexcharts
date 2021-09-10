@@ -1,11 +1,13 @@
 <template>
   <div class="container">
+    <!-- Componente V-Card que contem a chamada da biblioteca de gráficos de linha -->
     <v-row>
       <v-col cols="12" sm="6" md="8">
         <v-card class="sales-information" elevation="2" >
           <v-card-title>
             <h1>$38,4K</h1>
           </v-card-title>
+          <!-- Div de chamada do gráfico de linha, onde são estabelecidos os seus parametros. -->
           <div class="ml-5" id="chart-line">
             <apexchart
               type="line"
@@ -18,6 +20,7 @@
       </v-col>
 
       <v-col cols="6" md="4">
+        <!-- Componente V-Card que contem a chamada da biblioteca de gráficos Radiais -->
         <v-card class="emails-sent" elevation="2" height="428">
           <v-row>
             <v-col>
@@ -25,6 +28,7 @@
             </v-col>
             <v-btn class="mt-7 mr-5" text plain>This Week</v-btn>
           </v-row>
+           <!-- Div de chamada do gráfico radial, onde são estabelecidos os seus parametros. -->
           <div class="radail-circle" id="chart-radial">
             <apexchart
               type="radialBar"
